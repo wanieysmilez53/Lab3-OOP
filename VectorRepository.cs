@@ -1,19 +1,10 @@
-﻿public class VectorRepository
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Lab3_OOP
 {
-    private List<Vector> vectors;
-
-    public VectorRepository()
+    internal class VectorRepository
     {
-        vectors = new List<Vector>();
-    }
-
-    public void AddVector(Vector v)
-    {
-        vectors.Add(v);
-    }
-
-    public Vector GetVector(int index)
-    {
-        return vectors[index];
     }
 }

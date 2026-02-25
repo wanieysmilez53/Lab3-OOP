@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab3_OOP
 {
-    internal class MatrixRepository
+    internal class Matrix
     {
     }
 }
